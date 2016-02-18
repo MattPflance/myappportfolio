@@ -14,6 +14,7 @@
 
     <Button android:id="@+id/popular_movies_button"
         style="@style/project_button"
+        android:onClick="launchPopularMovies"
         android:text="@string/movies" />
 
     <Button android:id="@+id/scores_app_button"

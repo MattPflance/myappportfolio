@@ -1,11 +1,24 @@
 <resources>
+
+    <!-- TITLE -->
     <string name="app_name">My App Portfolio</string>
-    <string name="action_settings">Settings</string>
     <string name="title">My Nanodegree Apps!</string>
+
+    <!-- POPULAR MOVIES -->
     <string name="movies">POPULAR MOVIES</string>
+    <string name="pop_movies_package">com.mattpflance.popularmovies</string>
+
+    <!-- SUPER DUO -->
     <string name="scores">FOOTBALL SCORES</string>
     <string name="library">LIBRARY</string>
+
+    <!-- BUILD IT BIGGER -->
     <string name="build">BUILD IT BIGGER</string>
+
+    <!-- XYZ READER -->
     <string name="xyz">XYZ READER</string>
+
+    <!-- CAPSTONE! -->
     <string name="capstone">CAPSTONE</string>
+
 </resources>
