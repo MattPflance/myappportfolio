@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set up the toast message
         Context context = getApplicationContext();
-        CharSequence toast_msg = "This button will launch my " + app_name.toLowerCase() + " app!";
+        CharSequence toast_msg = String.format(getString(R.string.toast_text), app_name.toLowerCase());
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, toast_msg, duration);

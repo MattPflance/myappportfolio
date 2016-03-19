@@ -6,14 +6,14 @@
 
     <!-- POPULAR MOVIES -->
     <string name="movies">POPULAR MOVIES</string>
-    <string name="pop_movies_package">com.mattpflance.popularmovies</string>
+    <string name="pop_movies_package" translatable="false">com.mattpflance.popularmovies</string>
 
     <!-- SUPER DUO -->
     <string name="library">ALEXANDRIA</string>
-    <string name="alexandria_package">it.jaschke.alexandria</string>
+    <string name="alexandria_package" translatable="false">it.jaschke.alexandria</string>
 
     <string name="scores">FOOTBALL SCORES</string>
-    <string name="football_scores_package">barqsoft.footballscores</string>
+    <string name="football_scores_package" translatable="false">barqsoft.footballscores</string>
 
     <!-- BUILD IT BIGGER -->
     <string name="build">BUILD IT BIGGER</string>
@@ -23,5 +23,8 @@
 
     <!-- CAPSTONE! -->
     <string name="capstone">CAPSTONE</string>
+
+    <!-- Toast -->
+    <string name="toast_text">This button will launch my {0} app</string>
 
 </resources>
