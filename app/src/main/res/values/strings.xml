@@ -9,8 +9,10 @@
     <string name="pop_movies_package">com.mattpflance.popularmovies</string>
 
     <!-- SUPER DUO -->
+    <string name="library">ALEXANDRIA</string>
+    <string name="alexandria_package">it.jaschke.alexandria</string>
+
     <string name="scores">FOOTBALL SCORES</string>
-    <string name="library">LIBRARY</string>
 
     <!-- BUILD IT BIGGER -->
     <string name="build">BUILD IT BIGGER</string>

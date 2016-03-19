@@ -34,9 +34,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchPopularMovies(View view) {
-
         Intent launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.pop_movies_package));
         startActivity(launchIntent);
+    }
 
+    public void launchAlexandria(View view) {
+        Intent launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.alexandria_package));
+        startActivity(launchIntent);
     }
 }
