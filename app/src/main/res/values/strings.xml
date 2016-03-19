@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/tools">
 
     <!-- TITLE -->
     <string name="app_name">My App Portfolio</string>
@@ -25,6 +25,6 @@
     <string name="capstone">CAPSTONE</string>
 
     <!-- Toast -->
-    <string name="toast_text">This button will launch my {0} app</string>
+    <string name="toast_text">This button will launch my <xliff:g>%1$s</xliff:g> app</string>
 
 </resources>

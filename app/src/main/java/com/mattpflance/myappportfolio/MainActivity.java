@@ -1,6 +1,5 @@
 package com.mattpflance.myappportfolio;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,23 +13,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
-    public void toast(View view) {
-        // Get the button that was tapped
-        Button app_button = (Button) view;
-        // Get the button's text
-        String app_name = app_button.getText().toString();
+    public void launchToast(View view) {
+        // Get the name of the app to launch
+        String app_name = ((Button)view).getText().toString();
 
         // Set up the toast message
-        Context context = getApplicationContext();
         CharSequence toast_msg = String.format(getString(R.string.toast_text), app_name.toLowerCase());
-        int duration = Toast.LENGTH_SHORT;
 
-        Toast toast = Toast.makeText(context, toast_msg, duration);
-        toast.show();
-
+        Toast.makeText(this, toast_msg, Toast.LENGTH_SHORT).show();
     }
 
     public void launchPopularMovies(View view) {
