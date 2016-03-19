@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.mattpflance.myappportfolio.MainActivity"
-    tools:showIn="@layout/activity_main">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main" >
 
-    <Button android:id="@+id/popular_movies_button"
-        style="@style/project_button"
-        android:onClick="launchPopularMovies"
-        android:text="@string/movies" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_margin"
+        android:orientation="vertical"
+        android:gravity="center">
 
-    <Button android:id="@+id/library_app"
-        style="@style/project_button"
-        android:onClick="launchAlexandria"
-        android:text="@string/library" />
+        <Button android:id="@+id/popular_movies_button"
+            style="@style/project_button"
+            android:onClick="launchPopularMovies"
+            android:text="@string/movies" />
 
-    <Button android:id="@+id/scores_app_button"
-        style="@style/project_button"
-        android:onClick="launchFootballScores"
-        android:text="@string/scores" />
+        <Button android:id="@+id/library_app"
+            style="@style/project_button"
+            android:onClick="launchAlexandria"
+            android:text="@string/library" />
 
-    <Button android:id="@+id/build_it_bigger_button"
-        style="@style/project_button"
-        android:text="@string/build" />
+        <Button android:id="@+id/scores_app_button"
+            style="@style/project_button"
+            android:onClick="launchFootballScores"
+            android:text="@string/scores" />
 
-    <Button android:id="@+id/xyz_reader_button"
-        style="@style/project_button"
-        android:text="@string/xyz" />
+        <Button android:id="@+id/build_it_bigger_button"
+            style="@style/project_button"
+            android:text="@string/build" />
 
-    <Button android:id="@+id/capstone_button"
-        style="@style/project_button"
-        android:background="@color/violet"
-        android:text="@string/capstone" />
+        <Button android:id="@+id/xyz_reader_button"
+            style="@style/project_button"
+            android:text="@string/xyz" />
 
-</LinearLayout>
+        <Button android:id="@+id/capstone_button"
+            style="@style/project_button"
+            android:background="@color/violet"
+            android:text="@string/capstone" />
+
+    </LinearLayout>
+
+</ScrollView>
