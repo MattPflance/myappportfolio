@@ -25,18 +25,25 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, toast_msg, Toast.LENGTH_SHORT).show();
     }
 
-    public void launchPopularMovies(View view) {
-        Intent launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.pop_movies_package));
-        startActivity(launchIntent);
-    }
+    public void launchApp(View view) {
+        String app_name = ((Button)view).getText().toString();
+        Intent launchIntent = null;
 
-    public void launchAlexandria(View view) {
-        Intent launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.alexandria_package));
-        startActivity(launchIntent);
-    }
+        // No switch statement since cases need to be constant
+        if (app_name.equals(getString(R.string.popular_movies))) {
+            launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.popular_movies_package));
+        } else if (app_name.equals(getString(R.string.alexandria))) {
+            launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.alexandria_package));
+        } else if (app_name.equals(getString(R.string.football_scores))) {
+            launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.football_scores_package));
+        }
 
-    public void launchFootballScores(View view) {
-        Intent launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.football_scores_package));
-        startActivity(launchIntent);
+        // Just show a toast if the app doesn't exist on the phone
+        if (launchIntent != null) {
+            startActivity(launchIntent);
+        } else {
+            launchToast(view);
+        }
+
     }
 }

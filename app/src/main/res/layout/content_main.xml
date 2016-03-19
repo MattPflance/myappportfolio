@@ -16,32 +16,26 @@
 
         <Button android:id="@+id/popular_movies_button"
             style="@style/project_button"
-            android:onClick="launchPopularMovies"
-            android:text="@string/movies" />
+            android:text="@string/popular_movies" />
 
         <Button android:id="@+id/library_app"
             style="@style/project_button"
-            android:onClick="launchAlexandria"
-            android:text="@string/library" />
+            android:text="@string/alexandria" />
 
         <Button android:id="@+id/scores_app_button"
             style="@style/project_button"
-            android:onClick="launchFootballScores"
-            android:text="@string/scores" />
+            android:text="@string/football_scores" />
 
         <Button android:id="@+id/build_it_bigger_button"
             style="@style/project_button"
-            android:onClick="launchToast"
             android:text="@string/build" />
 
         <Button android:id="@+id/xyz_reader_button"
             style="@style/project_button"
-            android:onClick="launchToast"
             android:text="@string/xyz" />
 
         <Button android:id="@+id/capstone_button"
             style="@style/project_button"
-            android:onClick="launchToast"
             android:background="@color/violet"
             android:text="@string/capstone" />
 
