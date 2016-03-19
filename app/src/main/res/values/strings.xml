@@ -13,6 +13,7 @@
     <string name="alexandria_package">it.jaschke.alexandria</string>
 
     <string name="scores">FOOTBALL SCORES</string>
+    <string name="football_scores_package">barqsoft.footballscores</string>
 
     <!-- BUILD IT BIGGER -->
     <string name="build">BUILD IT BIGGER</string>

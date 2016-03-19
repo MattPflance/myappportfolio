@@ -42,4 +42,9 @@ public class MainActivity extends AppCompatActivity {
         Intent launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.alexandria_package));
         startActivity(launchIntent);
     }
+
+    public void launchFootballScores(View view) {
+        Intent launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.football_scores_package));
+        startActivity(launchIntent);
+    }
 }
