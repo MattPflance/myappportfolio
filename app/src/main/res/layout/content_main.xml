@@ -26,9 +26,13 @@
             style="@style/project_button"
             android:text="@string/football_scores" />
 
-        <Button android:id="@+id/build_it_bigger_button"
+        <Button android:id="@+id/build_it_bigger_button_free"
             style="@style/project_button"
-            android:text="@string/build" />
+            android:text="@string/build_free" />
+
+        <Button android:id="@+id/build_it_bigger_button_paid"
+            style="@style/project_button"
+            android:text="@string/build_paid" />
 
         <Button android:id="@+id/xyz_reader_button"
             style="@style/project_button"

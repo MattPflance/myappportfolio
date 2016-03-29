@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
             launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.alexandria_package));
         } else if (app_name.equals(getString(R.string.football_scores))) {
             launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.football_scores_package));
+        } else if (app_name.equals(getString(R.string.build_free))) {
+            launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.build_free_package));
+        } else if (app_name.equals(getString(R.string.build_paid))) {
+            launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.build_paid_package));
         }
 
         // Just show a toast if the app doesn't exist on the phone

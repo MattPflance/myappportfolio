@@ -16,7 +16,10 @@
     <string name="football_scores_package" translatable="false">barqsoft.footballscores</string>
 
     <!-- BUILD IT BIGGER -->
-    <string name="build">BUILD IT BIGGER</string>
+    <string name="build_free">BUILD IT BIGGER - FREE</string>
+    <string name="build_free_package">com.udacity.gradle.builditbigger.free</string>
+    <string name="build_paid">BUILD IT BIGGER - PAID</string>
+    <string name="build_paid_package">com.udacity.gradle.builditbigger.paid</string>
 
     <!-- XYZ READER -->
     <string name="xyz">XYZ READER</string>
