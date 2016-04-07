@@ -17,12 +17,13 @@
 
     <!-- BUILD IT BIGGER -->
     <string name="build_free">BUILD IT BIGGER - FREE</string>
-    <string name="build_free_package">com.udacity.gradle.builditbigger.free</string>
+    <string name="build_free_package" translatable="false">com.udacity.gradle.builditbigger.free</string>
     <string name="build_paid">BUILD IT BIGGER - PAID</string>
-    <string name="build_paid_package">com.udacity.gradle.builditbigger.paid</string>
+    <string name="build_paid_package" translatable="false">com.udacity.gradle.builditbigger.paid</string>
 
     <!-- XYZ READER -->
     <string name="xyz">XYZ READER</string>
+    <string name="xyz_package" translatable="false">com.example.xyzreader</string>
 
     <!-- CAPSTONE! -->
     <string name="capstone">CAPSTONE</string>

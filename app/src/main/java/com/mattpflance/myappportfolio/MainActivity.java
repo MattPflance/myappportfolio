@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
             launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.build_free_package));
         } else if (app_name.equals(getString(R.string.build_paid))) {
             launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.build_paid_package));
+        } else if (app_name.equals(getString(R.string.xyz))) {
+            launchIntent = getPackageManager().getLaunchIntentForPackage(getString(R.string.xyz_package));
         }
 
         // Just show a toast if the app doesn't exist on the phone
